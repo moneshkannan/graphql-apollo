@@ -1,0 +1,34 @@
+# mutation createuser($input: createUserDetail!){
+#   createUser(input: $input) {
+#     name
+#     age
+#     nationality
+#     username
+#   }
+# }
+
+# query getAllUser{
+#   users {
+#     id
+#     name
+#     username
+#     age
+#     nationality
+#   }
+# }
+
+# mutation update_user($input: updateUserNameInput!){
+#   updateusername(input: $input) {
+#     id
+#     name
+#     nationality
+#     username
+#     age
+#   }
+# }
+
+# mutation deleteUser($deleteUserId: ID!){
+#   deleteUser(id: $deleteUserId) {
+#     name
+#   }
+# }
